@@ -38,12 +38,5 @@ The data comes from our sourcing efforts. We removed any field that could direct
 
 - Re-rank candidates when a candidate is starred.
 
-## Bonus(es):
-
-- We are interested in a robust algorithm, tell us how your solution works and show us how your ranking gets better with each starring action.
-
-- How can we filter out candidates which in the first place should not be in this list?
-
-- Can we determine a cut-off point that would work for other roles without losing high potential candidates?
-
-- Do you have any ideas that we should explore so that we can even automate this procedure to prevent human bias?
+## Conclusion
+After using Various NLP techniques such as TF-IDF and word2vec to check the Similarity for two sentences 'Aspiring human resources' and 'seeking human resources' by applying the cosine-similarity and then the mean of the two matrix which are TF-IDF and word2vec for each sentence. Then, apply Re-rank of the job title based on the candidate is starred using RankNet deep leanring model.
